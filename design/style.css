@@ -154,6 +154,11 @@ padding: 2%;
     width: 100%;
     padding-bottom: 10%;
 }
+.datils-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+}
 #email{
     width: 30%;
     padding: 1rem;
@@ -161,7 +166,7 @@ padding: 2%;
     border-radius: 1rem;
 }
 .datils-input{
-
+    padding: 1rem;
 }
 /* =================footer contact=============================== */
 
