@@ -162,7 +162,11 @@ padding: 2%;
 /* =================footer contact=============================== */
 
 .contact{
-    background-color: #FFF8F3;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    padding-bottom: 6%;
 }
 .footer{
     display: flex;
@@ -204,149 +208,4 @@ padding: 2%;
     padding: 20px;
     width: 100%;
  
-}
-/*  ==========================responsive=======================*/
-@media screen and (max-width: 576px) {
-        /* ======header===== */        
-        nav{
-            margin: 0%;
-            padding: 3%;
-        }
-        .navtittle{
-            font-size: 25px;  
-        }
-        nav li{
-            margin-left : 2% ;
-            display: flex;
-            justify-content: space-evenly;
-            gap: 2%;
-            
-        }
-        nav ul{
-            display: flex;
-            text-decoration: none;
-        }
-        
-        .primary-btn{
-            color: honeydew;
-            height: 50%;
-            width: 60%;
-            border-radius: 5px;
-            background: #FD6E0A;
-            font-size: 15px;
-            border: 0px;
-            font-weight: 700;
-            padding: 3%;
-        }
-        .secondery-btn {
-            color: #FD6E0A;
-            height: 50%;
-            border-radius: 5px;
-            background: whitesmoke;
-            font-size: 15px;
-            border: 0px;
-            font-weight: 700;
-            padding: 3%;
-            width: 60%;
-        }
-        /* bannar style */
-.banner{
-    display: flex;
-    flex-direction: column-reverse;
-    margin: 5%;
-    margin-bottom: 10%;
-}
-.banner > img{
-    width: 80%;
-}
-.banner-tittle{
-    font-size: 35px;
-}
-.banner-sub-tittle{
-    font-size: 20px;
-}
-.banner-ditels{
-    font-size: 15px;
-    margin-bottom: 20%;
-}
-        /* about */
-        .about{
-            background-color: #FFF8F3;
-            margin: 10%;
-            text-align: center;
-            padding: 2%;
-            margin-bottom: 20%;
-        }
-        .about-bottom{
-            flex-direction: column;
-        }
-        /*====== what I do=====  */
-    .what-i-do{
-        background-color: #FFF8F3;
-        margin: 10%;
-        text-align: center;
-        padding: 2%;
-    }
-    
-    .section-tittle{
-        color:#181818;
-        font-weight: 700;
-        font-size: 25px;
-        margin-bottom: 0px;
-        text-align: center;
-    }
-    
-    .skills-container{
-        flex-direction: column;
-    }
-    /* resume */
-
-    .resume-contant{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        font-weight: 700;
-        font-size: 20px;
-        gap: 24px;
-        margin: 10%;
-    }
-    /* footer */
-    .contact{
-        background-color: #FFF8F3;
-    }
-    .footer{
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 3%;
-        justify-content: space-evenly;
-    }
-    .social, .form{
-        padding: 5%;
-    }
-    .social-tittle{
-        font-weight: 700;
-        font-size: 25px;
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-    .social-discription{
-        font-size: 14px;
-        margin-bottom: 10%;
-       margin-right: 50%;
-    }
-    .form-input , input{
-        border: 0;
-        margin-bottom: 5%;
-        height: 30%;
-        padding: 5%;
-        width: 100%;
-        
-    }
-    .form-input ,textarea{
-        border: 0;
-        margin-bottom: 5%;
-        padding: 5%;
-        width: 100%;
-     
-    }
 }
