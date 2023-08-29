@@ -1,0 +1,352 @@
+*{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+.primary-colour{
+    color: #FD6E0A;
+}
+/* header and nav */
+
+
+.header{
+    background-color: #e554731d;
+    background-repeat: no-repeat;
+    background-image: url(./images/header_bg.png) ,url(./images/developer.png);
+    background-position: bottom right, left;
+}
+
+
+.primary-btn{
+    color: honeydew;
+    height: 64px;
+    width: 200px;
+    border-radius: 5px;
+    background: #E55473;
+    font-size: 20px;
+    border: 0px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+.secondery-btn {
+    color: #FD6E0A;
+    height: 64px;
+    border-radius: 5px;
+    background: whitesmoke;
+    font-size: 20px;
+    border: 0px;
+    font-weight: 700;
+    padding: 18px 35px;
+    width: 200px;
+}
+
+/* bannar style */
+.banner{
+    display: flex;
+    margin:0px 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+    ;
+    
+}
+.banner-tittle{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-sub-tittle{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-ditels{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* ---------------main--------------------- */
+.featured-flowers{
+    text-align: center;
+    margin-top: 5%;
+}
+.me{
+    color:#000000;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.flower-type{
+    margin-bottom: 10%;
+    justify-content: space-around;
+}
+.flower-img{
+    background-color: rgba(232, 120, 232, 0.216);
+    padding: 1rem;
+    border-radius: 30% ;
+}
+.flower-type{
+    display: flex;
+    justify-content: space-around;
+}
+.flower-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.info-tittle{
+    font-size: 20px;
+    margin-top: 5%;
+    color: #000000;
+}
+.info-discription{
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+/*===============================services================ */
+
+.services{
+    background-color: #5e5a571b;
+    margin: 130px 230px;
+    text-align: center;
+    padding: 131px 156px;
+}
+.service-container{
+    display: flex;
+    text-align: left;
+    gap: 24px;
+    justify-content: space-around;
+}
+.service{
+    padding: 30px;
+    text-align: center;
+}
+.service-discription{
+    color: #050505;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+/* =============offer------------------ */
+.offer{
+background-color: #f8a9ba31;
+display: flex;
+justify-content: space-around;
+}
+.offer-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6%;
+}
+.offer-detils{
+    margin-bottom: 6%;
+}
+.offer-img{
+padding: 2%;
+}
+/* instagram */
+.instagram{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.instagram-top{
+    text-align: center;
+}
+.instagram-img, img{
+    text-align: center;
+    padding: 2%;
+}
+/* =================footer contact=============================== */
+
+.contact{
+    background-color: #FFF8F3;
+}
+.footer{
+    display: flex;
+    padding-bottom: 300px;
+    justify-content: space-around;
+}
+.social{
+    padding: 200PX;
+}
+.form{
+    padding: 200px;
+}
+.social-tittle{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.social-discription{
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 20px;
+   margin-right: 50px;
+}
+.form{
+    margin-right: 200px;
+}
+.form-input , input{
+    border: 0;
+    margin-bottom: 20px;
+    height: 64px;
+    padding: 20px;
+    width: 100%;
+    
+}
+.form-input ,textarea{
+    border: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+ 
+}
+/*  ==========================responsive=======================*/
+@media screen and (max-width: 576px) {
+        /* ======header===== */        
+        nav{
+            margin: 0%;
+            padding: 3%;
+        }
+        .navtittle{
+            font-size: 25px;  
+        }
+        nav li{
+            margin-left : 2% ;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 2%;
+            
+        }
+        nav ul{
+            display: flex;
+            text-decoration: none;
+        }
+        
+        .primary-btn{
+            color: honeydew;
+            height: 50%;
+            width: 60%;
+            border-radius: 5px;
+            background: #FD6E0A;
+            font-size: 15px;
+            border: 0px;
+            font-weight: 700;
+            padding: 3%;
+        }
+        .secondery-btn {
+            color: #FD6E0A;
+            height: 50%;
+            border-radius: 5px;
+            background: whitesmoke;
+            font-size: 15px;
+            border: 0px;
+            font-weight: 700;
+            padding: 3%;
+            width: 60%;
+        }
+        /* bannar style */
+.banner{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 5%;
+    margin-bottom: 10%;
+}
+.banner > img{
+    width: 80%;
+}
+.banner-tittle{
+    font-size: 35px;
+}
+.banner-sub-tittle{
+    font-size: 20px;
+}
+.banner-ditels{
+    font-size: 15px;
+    margin-bottom: 20%;
+}
+        /* about */
+        .about{
+            background-color: #FFF8F3;
+            margin: 10%;
+            text-align: center;
+            padding: 2%;
+            margin-bottom: 20%;
+        }
+        .about-bottom{
+            flex-direction: column;
+        }
+        /*====== what I do=====  */
+    .what-i-do{
+        background-color: #FFF8F3;
+        margin: 10%;
+        text-align: center;
+        padding: 2%;
+    }
+    
+    .section-tittle{
+        color:#181818;
+        font-weight: 700;
+        font-size: 25px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    
+    .skills-container{
+        flex-direction: column;
+    }
+    /* resume */
+
+    .resume-contant{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-weight: 700;
+        font-size: 20px;
+        gap: 24px;
+        margin: 10%;
+    }
+    /* footer */
+    .contact{
+        background-color: #FFF8F3;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3%;
+        justify-content: space-evenly;
+    }
+    .social, .form{
+        padding: 5%;
+    }
+    .social-tittle{
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .social-discription{
+        font-size: 14px;
+        margin-bottom: 10%;
+       margin-right: 50%;
+    }
+    .form-input , input{
+        border: 0;
+        margin-bottom: 5%;
+        height: 30%;
+        padding: 5%;
+        width: 100%;
+        
+    }
+    .form-input ,textarea{
+        border: 0;
+        margin-bottom: 5%;
+        padding: 5%;
+        width: 100%;
+     
+    }
+}
